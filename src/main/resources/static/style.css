@@ -1,0 +1,268 @@
+body {
+    background-color: white;
+
+}
+
+.WizzImage {
+
+    background-color: #209B9F;
+    -moz-background-size: auto;
+    object-position: left top;
+    text-align: -moz-left;
+    border: none;
+    left: 65px;
+    top: 95px;
+
+}
+
+.menu {
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+}
+
+.most-popular {
+    font-size: 24px;
+    font-style: italic;
+    background-color: #209B9F;
+    color: black;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cars {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    cursor: pointer;
+    margin-right: 6px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.hotels {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+.planning {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.info {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+.check {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+.login {
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    background-color: #209B9F;
+    border: none;
+    margin-left: 5px;
+    text-underline-mode: onlick;
+    cursor: pointer;
+    box-sizing: inherit;
+    border-radius: 8px;
+}
+
+.buttons {
+    position: absolute;
+    right: 85px;
+    top: 75px;
+    box-sizing: inherit;
+    background-color: #209B9F;
+}
+
+.most-popular:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.cars:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.hotels:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.planning:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.info:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.check:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.login:hover {
+    background-color: #0DE3EE;
+    transition: 0.3s;
+}
+
+.text1 {
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.wizzairpicture {
+    margin-left: 30px;
+}
+
+.box {
+    height: 370px;
+    width: 380px;
+    background: linear-gradient(to right, #20BF55, #01BAEF);
+    padding: 50px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+a.flight {
+    background: linear-gradient(to right, #196BCA, #6433E0);
+    background-color: #196BCA;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 770;
+    font-style: italic;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin-right: 18px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+a.flight span {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+}
+
+a.flight:hover {
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+    background-color: #5482d0;
+}
+
+a.flight:active {
+    transform: scale(0.95);
+}
+
+#origin {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+#destination {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#quantity {
+
+    margin-top: 10px;
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+#departure {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 160px;
+    font-style: italic;
+}
+
+#return {
+    height: 50px;
+    width: 160px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+#goingText {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+#returnText {
+    margin-left: 48px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 800;
+
+}
+
+#search {
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+
+
+
