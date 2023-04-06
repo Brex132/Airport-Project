@@ -13,13 +13,4 @@ public class RestController {
 
         return "aa";
     }
-
-    @PostMapping("/login")
-    public String redirect(@RequestBody Credentials c) {
-        System.out.println(c.getFirstname());
-        if(c.getFirstname().equals("ivan")) {
-            return "Successfully";
-        }
-        return "Error";
-    }
 }

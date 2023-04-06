@@ -42,20 +42,25 @@
 </h1>
 <div class="box">
 
+<div class="box-buttons">
     <a class="flight" href="#"><span></span>ПОЛЕТИ</a>
     <a class="flight" href="#"><span></span>ХОТЕЛИ</a>
     <a class="flight" href="#"><span></span>КОЛИ</a>
-
+</div>
 
     <input type="text" id="origin" placeholder="НАСЕЛЕНО МЯСТО" name="Origin">
     <input type="text" id="destination" placeholder="ДЕСТИНАЦИЯ" name="Destination">
 
-    <span id="goingText">Дата на тръгване:</span>
-    <span id="returnText">Дата на връщане:</span><br/>
-
-
-    <input id="departure" type="date" name="date" style="border-radius: 10px"/>
-    <input id="return" type="date" name="date" style="border-radius: 10px"/>
+<div class="dates">
+    <div class="dates-labels">
+        <span id="goingText">Дата на тръгване:</span>
+        <span id="returnText">Дата на връщане:</span><br/>
+    </div>
+    <div class="dates-inputs">
+        <input id="departure" type="date" name="date" style="border-radius: 10px"/>
+        <input id="return" type="date" name="date" style="border-radius: 10px"/>
+    </div>
+</div>
 
     <br/>
 

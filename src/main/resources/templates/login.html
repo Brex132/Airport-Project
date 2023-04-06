@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,11 +8,13 @@
 <body>
 
 <form action="/login" method="post">
-    <label for="first">asasf</label>
-    <input id="first" type="text">
+    <label for="username"></label>
+    <input id="username" name="username" type="text">
+    <input id="pass" name="password" type="text">
 
     <input type="submit" value="Send"/>
 </form>
+
 
 </body>
 </html>

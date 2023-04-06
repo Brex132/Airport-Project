@@ -229,8 +229,7 @@ a.flight:active {
 }
 
 #departure {
-    margin-top: 10px;
-    margin-left: 10px;
+    display: flex;
     height: 50px;
     width: 160px;
     font-style: italic;
@@ -244,15 +243,11 @@ a.flight:active {
 }
 
 #goingText {
-    margin-left: 15px;
-    margin-bottom: 10px;
     font-style: italic;
     font-weight: 800;
 }
 
 #returnText {
-    margin-left: 48px;
-    margin-top: 10px;
     font-style: italic;
     font-weight: 800;
 
@@ -262,7 +257,15 @@ a.flight:active {
     margin-top: 10px;
     margin-left: 125px;
 }
-
-
-
+.box-buttons{
+    display: flex;
+}
+.dates{
+    display: flex;
+    flex-direction: column;
+}
+.dates-labels, .dates-inputs{
+    display: flex;
+    flex:1 1 ;
+}
 
